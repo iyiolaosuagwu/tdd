@@ -30,12 +30,12 @@ describe('HomeScreen', () => {
 
     test('Should contain current date', () => {
       const wrapper = render(<HomeScreen />);
-      wrapper.getByText('Jun 30, 2022');
+      wrapper.getByText('Jul 03, 2022');
     });
 
     test('Should contain current day', () => {
       const wrapper = render(<HomeScreen />);
-      wrapper.getByText('Thursday');
+      wrapper.getByText('Sunday');
     });
 
     test('should contain a section to get current weather', () => {
